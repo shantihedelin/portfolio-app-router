@@ -36,6 +36,7 @@
   /* Förhindrar vertikal skrollning i hela sidan */
   body, html {
     overflow-x: hidden;
+    margin: 0px;
   }
   
   /* Extra stil för att förbättra utseendet på skrollbaren (valfritt) */
