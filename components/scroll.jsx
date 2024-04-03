@@ -13,7 +13,7 @@ export default function scroll() {
                   <div className=" h-32 w-32 rounded-full flex items-center justify-center skills">
                     Vite
                   </div>
-                  <div className=" h-32 w-32 rounded-full flex items-center justify-center skills ">
+                  <div className="h-40 w-32 rounded-full flex items-center justify-center skills ">
                     HTML
                   </div>
                   <div className=" h-32 w-32 rounded-full flex items-center justify-center skills">

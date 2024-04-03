@@ -13,9 +13,9 @@ function Nav() {
         <div className="">
 
         <div className="hidden md:flex space-x-2">
-          <Link className="link text-2xl px-4" href={"/"}>Home</Link>
-          <Link className="link text-2xl px-4" href={""}>Resume</Link>
-          <Link className="link text-2xl px-4" href={""}>Contact</Link>
+          <Link className="link text-lg px-4" href={"/"}>Home</Link>
+          <Link className="link text-lg px-4" href={""}>Resume</Link>
+          <Link className="link text-lg px-4" href={""}>Contact</Link>
         </div>
 {/* 
         <button className="bg-transparent border-none">
