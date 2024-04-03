@@ -24,3 +24,30 @@
 .fullstack:hover {
     color: #EA1179;
 }
+
+.flex-row-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 24px; /* Justera detta värde efter behov för mellanrum mellan element */
+    padding: 20px; /* Lägger till lite utrymme runt innehållet */
+    scroll-behavior: smooth;
+  }
+  
+  /* Förhindrar vertikal skrollning i hela sidan */
+  body, html {
+    overflow-x: hidden;
+  }
+  
+  /* Extra stil för att förbättra utseendet på skrollbaren (valfritt) */
+  .flex-row-scroll::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .flex-row-scroll::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  .flex-row-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

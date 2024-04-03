@@ -22,14 +22,14 @@ const ProjectSectionList = () => {
   ];
 
   const ProjectCard = ({ title, description, liveLink, Github, image }) => (
-    <div className=" bg-white border-solid border-2 shadow-lg rounded-lg overflow-hidden m-5 flex flex-col justify-center items-center">
+    <div className=" bg-white border-solid border-2 shadow-lg rounded-lg overflow-hidden m-5 flex flex-col justify-center items-center lg:mx-72 lg:h-80 ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
         <div className="w-full">
           <Image
             src={image}
             alt={title}
-            height="300"
+            height="200"
             className="rounded-t-lg w-full flex justify-center items-center"
           />
         </div>
